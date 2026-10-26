@@ -907,7 +907,7 @@ nextcloud:
       <?php
       $CONFIG = array (
         'log_type' => 'file',
-        'logfile' => 'nextcloud.log',
+        'logfile' => '/var/www/html/data/nextcloud.log',
         'loglevel' => 0,
         'logdateformat' => 'F d, Y H:i:s'
         );
